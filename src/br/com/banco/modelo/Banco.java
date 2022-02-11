@@ -1,3 +1,5 @@
+package br.com.banco.modelo;
+
 import java.util.List;
 
 public class Banco {

@@ -1,3 +1,5 @@
+package br.com.banco.modelo;
+
 public class Cliente {
     private String nome;
 

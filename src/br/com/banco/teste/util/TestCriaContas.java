@@ -1,5 +1,9 @@
-public class Test {
-    public static void main(String[] args) {
+package br.com.banco.teste.util;
+
+import br.com.banco.modelo.*;
+
+public class TestCriaContas {
+    public static void main(String[] args) throws SaldoInsuficienteException {
         Cliente joao = new Cliente();
         joao.setNome("Joao Geraldo");
         Cliente maria = new Cliente();
